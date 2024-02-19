@@ -132,27 +132,5 @@ flowchart TD
     chat -- content --> customer_response
     service_reply -. format_messages .-> prompt_template
     format_instructions --> prompt_template
-    style ChatCompletion fill:#2962FF
-    style OpenAI fill:#2962FF
-    style output_parsers_ResponseSchema fill:#D50000,color:#000000
-    style output_parsers_StructuredOutputParser fill:#D50000,color:#000000
-    style chat_models_ChatOpenAI fill:#D50000,color:#000000
-    style customer_style fill:#00C853
-    style prompts_ChatPromptTemplate fill:#D50000,color:#000000
-    style mem_ChatOpenAI fill:#D50000
-    style chains_ConversationChain fill:#D50000
-    style memory_ConversationBufferMemory fill:#D50000,color:#000000
-    style memory_ConversationTokenBufferMemory color:#000000,fill:#D50000
-    style memory_ConversationSummaryMemory color:#000000,fill:#D50000
-    style memory_ConversationBufferWindowMemory fill:#D50000,color:#000000
-    style service_reply fill:#00C853
-    style customer_response fill:#00C853
-    linkStyle 6 stroke:#FFFFFF,fill:none
-    linkStyle 10 stroke:#00C853,fill:none
-    linkStyle 11 stroke:#FFFFFF,fill:none
-    linkStyle 12 stroke:#AA00FF,fill:none
-    linkStyle 13 stroke:#AA00FF,fill:none
-    linkStyle 14 stroke:#AA00FF,fill:none
-    linkStyle 16 stroke:#AA00FF,fill:none
 
 ```
